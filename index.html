@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="imagenes/logo.jpg" alt="logo" height="100px">            
+        </div>     
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="#">Menu 1</a>
+        <a href="#">Menu 2</a>
+        <a href="#">Menu 3</a>
+    </nav>
+    <main>
+        <section class="sect1">
+            <article>
+                
+                <h1>¿Qué es el protocolo Telnet?</h1>
+                
+                <div class="img">
+                    <img src="imagenes/telnet.png" alt="telnetlogo">
+                </div>
+                <p>Telnet es una herramienta que ha sido utilizada durante décadas por los administradores de sistema informáticos en el ámbito de las redes. Las conexiones remotas no son algo precisamente nuevo, ya desde las primeras redes y con sistemas sin escritorio se utilizaban herramientas como Telnet para conectarnos a servidores y equipos conectados a una red, tanto de forma remota como interna. Aquí conoceremos mejor qué es Telnet y para que se utilizaba.</p>
+                <p>El nombre de Telnet proviene del acrónimo <em>Telecomunication Network</em>, y básicamente un protocolo de red TCP/IP que es utilizado desde 1960 para establecer conexiones remotas con otros ordenadores, servidores, y dispositivos con un sistema compatible en el acceso mediante este sistema de comunicación. De forma predeterminada se utiliza el puerto de conexión 23.</p>
+                <p>Además del propio protocolo, también recibe este nombre el programa que lo utiliza para establecer la propia conexión. Para acceder a la otra máquina de forma remota, debemos utilizar un terminal, por ejemplo, Símbolo del sistema de Windows, o el Terminal de Linux. De esta forma podremos interactuar en la máquina remota navegando por sus archivos, ejecutando otros comandos internos, si tenemos permiso, y monitorizar el estado de la propia máquina sin la necesidad de ir físicamente al lugar en donde se encuentra.</p>
+                <p>Además de ser utilizado en sistemas MSDOS y Windows, también es compatible con sistemas Basados en UNIX, como Mac y Linux, y FreeBSD. Con este protocolo, también seremos capaces de comprobar la conectividad de otras máquinas y comprobar si tienen determinados puertos abiertos al exterior. Esto es algo que veremos en un momento.</p>
+                <h2>¿Cómo funciona Telnet?</h2>
+                <p>Como decimos, este protocolo y programa, solamente es posible utilizarlo en modo comando. Para que podamos establecer una conexión entre dos ordenadores con Telnet, primero necesitaremos tener un cliente en el terminar que estamos nosotros, y un servidor en la máquina a la que pretendemos acceder. Si además lo hacemos fuera de una intranet, o red LAN, necesitaremos tener el puerto 23 abierto en la máquina de destino.</p>
+            </article>
+            <article>
+                <br><div class="titulo"><h1>¿Qué es el protocolo SSH?</h1></div>
+                
+                <div class="img">
+                    <img src="imagenes/ssh.jpg" alt="SSHlogo">
+                </div>
+                <p>SSH o Secure Shell es un protocolo de comunicaciones seguras para conectar de forma remota dos sistemas operativos para que podamos controlar mediante consola de comandos un equipo host desde un equipo cliente.</p>
+                <p>Lo más importante de SSH es que es capaz de encriptar la sesión de conexión, cosa que no es posible con FTP o Telnet, protocolos mucho más inseguros y ya poco utilizados.</p>
+                <p>SSH también permite copiar datos de forma segura desde un host a un cliente con la posibilidad de utilizar claves RSA más seguras que las claves de sesión de usuarios normales y además podremos tunelizar la transmisión de ficheros para adquirir aún más seguridad</p>
+                <p>Actualmente es posible hacer SSH entre prácticamente cualquier equipo tenga el sistema operativo que tenga, ya que existen programas específicos para obtener estar compatibilidad, como por ejemplo OpenSSH, Putty, Shell, SSH-Agent entre otros.</p>
+                <h2>¿Cuáles son sus usos?</h2>
+                <p>SSH es un protocolo que se puede utilizar para muchas aplicaciones en muchas plataformas, incluidas la mayoría de las variantes de Unix (Linux, los BSD, incluido macOS de Apple y Solaris), así como Microsoft Windows. Algunas de las aplicaciones siguientes pueden requerir características que solo están disponibles o son compatibles con clientes o servidores SSH específicos. Por ejemplo, es posible usar el protocolo SSH para implementar una VPN, pero actualmente solo con la implementación del servidor OpenSSH y el cliente</p>
+                <ul style="padding-left: 10%;">
+                    <li>Para iniciar sesión en un shell en un host remoto (reemplazando Telnet y rlogin).</li>
+                    <li>Para ejecutar un solo comando en un host remoto (reemplazando rsh).</li>
+                    <li>Para configurar el inicio de sesión automático (sin contraseña) en un servidor remoto (por ejemplo, mediante OpenSSH.</li>
+                    <li>Para el monitoreo y la administración remota automatizada de servidores a través de uno o más de los mecanismos discutidos anteriormente.</li>
+                </ul>
+            </article>
+
+        </section>
+        <section class="sect2">
+            <aside>
+                <p>Contenido Relacionado</p>
+                <H3>Lo más Popular!</H3>
+                <ol>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ol>
+            </aside>
+            <aside>
+                <p>Contenido Relacionado</p>
+                <H3>Lo más Popular!</H3>
+                <ol>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ol>
+            </aside>
+        </section>
+        
+    </main>
+    <footer>
+        
+        <section style="width: 50%; text-align: justify;margin: 0 auto;">
+            <h3>Sobre Nosotros </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eius fugit optio! Veritatis inventore, maiores adipisci excepturi maxime nihil expedita labore, ipsa fugiat consectetur incidunt delectus, eveniet officiis sit laborum.</p>
+        </section>
+        <section style="width: 50%; text-align: center;margin: 0 auto;">
+            <p>© Copyright 2022. All Rights Reserved. </p>
+            <p>Cochabamba | Bolivia </p>
+        </section>
+        
+           
+    </footer>
+   
+    
+</body>
+</html>
